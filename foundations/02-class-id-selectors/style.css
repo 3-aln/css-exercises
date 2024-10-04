@@ -3,13 +3,13 @@
   font-family: Verdana, 'DejaVu Sans', sans-serif;
 }
 
+.adjust-font-size {
+  font-size: 24px;
+}
+
 #big-blue {
   color: #0000ff;
   font-size: 36px;
-}
-
-.adjust-font-size {
-  font-size: 24px;
 }
 
 #bold-green {
