@@ -8,12 +8,11 @@
   font-size: 36px;
 }
 
-.big-odd {
+.adjust-font-size {
   font-size: 24px;
 }
 
 #bold-green {
   background-color: #8eff8e;
-  font-size: 24px;
   font-weight: bold;
 }
