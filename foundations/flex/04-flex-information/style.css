@@ -17,13 +17,13 @@ img {
 }
 
 /* * */
-.items {
+.container {
   display: flex;
   justify-content: center;
   gap: 52px;
 }
 
-.item {
+.info {
   width: 200px;
   text-align: center;
 }
