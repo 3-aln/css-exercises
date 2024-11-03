@@ -8,6 +8,7 @@ body {
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 a {
@@ -43,12 +44,21 @@ a {
 .content-wrapper {
   display: flex;
 }
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 /* * */
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  /* * */
+  flex-shrink: 0;
+  padding: 16px;
+  /* * */
 }
 
 .card {
@@ -56,3 +66,10 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* * */
+.sidebar a {
+  font-size: 24px;
+  color: white;
+}
+/* * */
