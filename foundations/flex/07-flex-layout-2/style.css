@@ -48,6 +48,13 @@ a {
 .card-wrapper {
   display: flex;
   flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
+}
+
+.card {
+  flex-basis: 300px;
+  padding: 16px;
 }
 /* * */
 
