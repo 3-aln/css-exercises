@@ -9,12 +9,6 @@ body {
 }
 
 /* * */
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -73,6 +67,24 @@ a {
   /* * */
 }
 
+/* * */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+}
+
+.sidebar li {
+  margin-bottom: 16px;
+}
+
+/* * */
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
@@ -80,8 +92,5 @@ a {
 }
 
 /* * */
-.sidebar a {
-  font-size: 24px;
-  color: white;
-}
+
 /* * */
