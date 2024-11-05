@@ -27,17 +27,6 @@ a {
   /* * */
 }
 
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-  /* * */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* * */
-}
-
 /* * */
 .content-wrapper {
   display: flex;
@@ -82,7 +71,6 @@ ul {
 .sidebar li {
   margin-bottom: 16px;
 }
-
 /* * */
 
 .card {
@@ -91,6 +79,13 @@ ul {
   border-radius: 4px;
 }
 
-/* * */
-
-/* * */
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  /* * */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* * */
+}
